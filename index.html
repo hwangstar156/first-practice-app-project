@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="logo">
+    <i class="fab fa-html5"></i>
+  </div>
+  <div class="element">
+    <form id="loginform" class="hidden">
+      <input required type="text" placeholder="이름을 입력하세요" maxlength="15"/>
+      <button>Log in</button>
+    </form>
+
+    <h1 id = "greeting" class="hidden"></h1>
+
+    <form id="todo-form" class="hidden">
+      <input type="text" placeholder="Write a To Do and Press enter">
+    </form>
+
+    <ul class="todo-list">
+      <i class="far fa-trash-alt" id="clearBtn"></i>
+    </ul>
+
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <h2 id="clock">
+    00:00
+  </h2>
+  <div id="weather">
+    <img src="" alt="weather">
+    <span></span>
+  </div>
+  <div id="log-out" class="hidden">
+    log-out
+    <i class="fas fa-sign-out-alt"></i>
+  </div>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="quote.js"></script>
+    <script src="background.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+    <script src="https://kit.fontawesome.com/08c91e1c0e.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+.back-ground {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+body,
+html {
+  font-family: "Nanum Pen Script", cursive;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 1.3rem;
+}
+
+.element {
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 40%;
+  height: 50%;
+}
+#weather {
+  position: absolute;
+  color: white;
+  right: 1%;
+  top: 1%;
+}
+#weather img {
+  width: 50px;
+  height: 50px;
+}
+#clock {
+  position: absolute;
+  color: white;
+  top: 5%;
+  right: 1%;
+}
+input {
+  border-radius: 6px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 1.1rem;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+input::placeholder {
+  color: white;
+}
+
+#loginform button {
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+  margin-left: 5px;
+  border-style: none;
+  box-shadow: 1px 1px 1px 1px black;
+  padding: 5px 8px;
+}
+
+#loginform button:hover {
+  transform: scale(1.04);
+}
+#todo-form {
+  width: 15%;
+}
+#todo-form input {
+  width: 100%;
+}
+#quote {
+  margin-top: auto;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  padding: 0px;
+}
+.todo-list i {
+  align-self: flex-end;
+  cursor: pointer;
+}
+.todo-list i:hover {
+  color: tomato;
+}
+.todo-list li button {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 15px;
+}
+#logo {
+  top: 20px;
+  left: 20px;
+  position: relative;
+}
+#logo i {
+  color: skyblue;
+  font-size: 50px;
+  cursor: pointer;
+}
+#log-out {
+  position: absolute;
+  color: white;
+  right: 1%;
+  top: 18%;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
